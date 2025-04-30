@@ -39,7 +39,7 @@ while (true)
     var response = await kernel.InvokePromptAsync(redContext);
 
 
-    Console.WriteLine("回复内容",response);
+    Console.WriteLine($"回复内容:{response}");
 
 }
 
